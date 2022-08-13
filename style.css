@@ -399,6 +399,51 @@ header {
   opacity: .85;
 }
 
+/* Projects */ 
+
+.myProjects { 
+  background-color: var(--clr-dark);
+  background-image: url(img/projBg.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.section__title--proj { 
+
+  color: var(--clr-accent);
+  position: relative;
+}
+
+.section__title--proj::after { 
+
+  content: '';
+  display: block;
+  width: 2em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background: var(--clr-light);
+  opacity: 0.5;
+}
+
+.projs { 
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media (min-width: 800px) {
+  .projects { 
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+  .projs + .projs + .projs { 
+    margin-left: 2em;
+  }
+}
+
 /*Footer*/
 
 .footer { 
