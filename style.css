@@ -410,6 +410,9 @@ header {
   text-align: center;
 }
 
+#projName { 
+  color: var(--clr-accent);
+}
 .section__title--proj { 
 
   color: var(--clr-accent);
