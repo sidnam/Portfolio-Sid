@@ -486,6 +486,25 @@ header {
   font-size: var(--fs-body);
 }
 
+.modal{ 
+  padding: 1em;
+  max-width: 50ch;
+}
+
+.button { 
+    display: inline-block;
+    padding: .5em 1.5em;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+}
+
 #toTop {
   display: none; 
   position: fixed; 
